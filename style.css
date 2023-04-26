@@ -1,0 +1,136 @@
+body {
+  font-family: Arial, sans-serif;
+  background-color: #f5f5f5;
+  background-color: rgb(84, 191, 248);
+}
+
+h1 {
+  font-size: 50px;
+  font-weight: bold;
+  /* height: 50px; */
+
+  margin: 0.67em 20px;
+  /* margin-top: 10px; */
+  padding: 20px;
+  background-color: #2a93fc;
+  color: #fff;
+  text-align: center;
+  /* text-justify: center; */
+  border-radius: 5px;
+  box-shadow: 0 0 0 3px #fcfcfc;
+}
+
+h1,
+form,
+.memo-main,
+#memoList {
+  box-sizing: border-box;
+  width: 100%;
+  max-width: 621px;
+}
+
+h2 {
+  font-size: 30px;
+  font-weight: bold;
+
+  color: #fff;
+  text-align: center;
+}
+.memo-body {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  box-sizing: border-box;
+  padding: 0 20px;
+}
+.memo-main {
+  resize: none;
+  border-radius: 5px;
+  border: 3px solid #2a93fc;
+  box-shadow: 0 0 0 px #fcfcfc;
+  padding: 20px;
+}
+.btn-save {
+  font-size: 17px;
+  font-weight: bold;
+  margin-top: 10px;
+  width: 60px;
+  height: 30px;
+  background-color: #2a93fc;
+  color: #fff;
+  border: 1px solid;
+  border-radius: 5px;
+  box-shadow: 0px 0px 2px 2px rgb(39, 89, 250);
+}
+.btn-save:hover {
+  background-color: #002ead;
+  transition: 0.7s;
+}
+.btn-save:focus {
+  outline-color: transparent;
+  outline-style: solid;
+  box-shadow: 0 0 0 4px #1f84ff;
+}
+.btn-save:focus {
+  outline-color: transparent;
+  outline-style: solid;
+  box-shadow: 0 0 0 1px #fcfcfc;
+  transition: 0.7s;
+}
+#memoForm {
+  margin: 20px 0;
+}
+
+#memoInput {
+  width: 100%;
+  padding: 10px;
+  font-size: 16px;
+  border-radius: 5px;
+  border: none;
+  box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.2);
+  resize: vertical;
+}
+
+#memoInput:focus {
+  outline: none;
+  box-shadow: 0px 2px 5px rgba(0, 0, 0, 0.3);
+}
+
+#memoList {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+#memoList li {
+  height: 100%;
+  width: 100%;
+  box-sizing: border-box;
+  white-space: pre-wrap;
+  word-break: break-all;
+  margin: 10px 0;
+  padding: 10px;
+  background-color: #fff;
+  border-radius: 5px;
+  box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.2);
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  border-radius: 5px;
+}
+
+#memoList li button {
+  background-color: #dc3545;
+  color: #fff;
+  border: none;
+  min-width: 58.54px;
+  padding: 5px 10px;
+  margin: 0 20px;
+  cursor: pointer;
+  border-radius: 5px;
+}
+#memoList li button:hover {
+  background-color: #002ead;
+  transition: 0.7s;
+}
