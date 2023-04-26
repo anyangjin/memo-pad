@@ -1,7 +1,26 @@
+@font-face {
+  font-family: "KyoboHand";
+  src: url("https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_20-04@1.0/KyoboHand.woff")
+    format("woff");
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: "BMJUA";
+  src: url("https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_one@1.0/BMJUA.woff")
+    format("woff");
+  font-weight: normal;
+  font-style: normal;
+}
+
 body {
-  font-family: Arial, sans-serif;
   background-color: #f5f5f5;
   background-color: rgb(84, 191, 248);
+}
+
+* {
+  font-family: "BMJUA", "KyoboHand", Arial, sans-serif;
 }
 
 h1 {
@@ -50,6 +69,7 @@ h2 {
   border: 3px solid #2a93fc;
   box-shadow: 0 0 0 px #fcfcfc;
   padding: 20px;
+  font-family: "KyoboHand";
 }
 .btn-save {
   font-size: 17px;
@@ -104,6 +124,7 @@ h2 {
 }
 
 #memoList li {
+  font-family: "KyoboHand";
   height: 100%;
   width: 100%;
   box-sizing: border-box;
